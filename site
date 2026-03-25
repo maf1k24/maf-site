@@ -372,10 +372,10 @@ body::after {
 
 <script>
 const scripts = {
-    1: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/EtfbTradeScript/refs/heads/main/Loader.lua"))()',
-    2: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/AutoPhantomEvent/refs/heads/main/Loader.lua"))()',
-    3: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FireVSIce/refs/heads/main/Loader.lua"))()',
-    4: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/CandyEspScript/refs/heads/main/Loader.lua"))()',
+    1: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FreezeTradeScritp/refs/heads/main/Loader.lua"))()',
+    2: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/AutoPhantomEventScript/refs/heads/main/Loader.lua"))()',
+    3: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FireVsIceScript/refs/heads/main/Loader.lua"))()',
+    4: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/CandyEsp-MiniGame-Script/refs/heads/main/Loader.lua"))()',
 };
 
 let currentTab = 1;
