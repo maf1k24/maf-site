@@ -328,12 +328,12 @@ body::after {
     <!-- TOP BAR -->
     <div class="topbar">
         <div class="logo">
-            <div class="logo-mark"><span>P</span></div>
-            <span class="logo-name">PikaScripts</span>
+            <div class="logo-mark"><span>M</span></div>
+            <span class="logo-name">Maf1kScripts</span>
         </div>
         <div class="badge">
             <div class="badge-dot"></div>
-            <span id="counter">189</span> online
+            <span id="counter">158</span> online
         </div>
     </div>
 
@@ -347,9 +347,9 @@ body::after {
 
         <div class="tabs">
             <button class="tab-btn active" onclick="switchTab(1)">Trade Script</button>
-            <button class="tab-btn" onclick="switchTab(2)">Phantom Event</button>
+            <button class="tab-btn" onclick="switchTab(2)">Auto Phantom Event</button>
             <button class="tab-btn" onclick="switchTab(3)">FireVsIce</button>
-            <button class="tab-btn" onclick="switchTab(4)">Auto Trial Script</button>
+            <button class="tab-btn" onclick="switchTab(4)">Candy Esp Script [MINI GAME]</button>
         </div>
 
         <div class="script-area">
@@ -361,9 +361,8 @@ body::after {
 
         <div class="card-footer">
             <div class="socials">
-                <a href="https://www.youtube.com/@celestialdlc" target="_blank" class="social-link">▶ YT</a>
-                <a href="https://discord.gg/tYX4wPrcU6" target="_blank" class="social-link">💬 Discord</a>
-                <a href="https://www.tiktok.com/@pikascriptss_" target="_blank" class="social-link">♪ TikTok</a>
+                <a href="https://www.youtube.com/@maf1k24" target="_blank" class="social-link">▶ YT</a>
+                <a href="https://www.tiktok.com/@maf1k79" target="_blank" class="social-link">♪ TikTok</a>
             </div>
             <div class="copyright">© 2026</div>
         </div>
@@ -373,10 +372,10 @@ body::after {
 
 <script>
 const scripts = {
-    1: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/PikaEvil619/ETFBTradeScript/refs/heads/main/loader.lua"))()',
-    2: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/PikaEvil619/ETFBPhantomEvent/refs/heads/main/loader.lua"))()',
-    3: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/PikaEvil619/firevsice/refs/heads/main/script.lua"))()',
-    4: '-- Auto Trial Script coming soon!'
+    1: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/EtfbTradeScript/refs/heads/main/Loader.lua"))()',
+    2: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/AutoPhantomEvent/refs/heads/main/Loader.lua"))()',
+    3: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FireVSIce/refs/heads/main/Loader.lua"))()',
+    4: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/CandyEspScript/refs/heads/main/Loader.lua"))()',
 };
 
 let currentTab = 1;
