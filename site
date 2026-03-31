@@ -348,7 +348,7 @@ body::after {
         <div class="tabs">
             <button class="tab-btn active" onclick="switchTab(1)">Trade Script</button>
             <button class="tab-btn" onclick="switchTab(2)">Auto Phantom Event</button>
-            <button class="tab-btn" onclick="switchTab(3)">FireVsIce</button>
+            <button class="tab-btn" onclick="switchTab(3)">Auto Popcorn Script</button>
             <button class="tab-btn" onclick="switchTab(4)">Candy Esp Script [MINI GAME]</button>
         </div>
 
@@ -372,10 +372,10 @@ body::after {
 
 <script>
 const scripts = {
-    1: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FreezeTradeScritp/refs/heads/main/Loader.lua"))()',
-    2: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/AutoPhantomEventScript/refs/heads/main/Loader.lua"))()',
-    3: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FireVsIceScript/refs/heads/main/Loader.lua"))()',
-    4: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/CandyEsp-MiniGame-Script/refs/heads/main/Loader.lua"))()',
+    1: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/FreezeTrade/refs/heads/main/Loader.lua"))()',
+    2: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/PhantomEventScript/refs/heads/main/Loader.lua"))()',
+    3: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/AutoPopcornGame/refs/heads/main/Loader.lua"))()',
+    4: 'loadstring(game:HttpGet("https://raw.githubusercontent.com/maf1k24/CandyMINIGame/refs/heads/main/Loader.lua"))()',
 };
 
 let currentTab = 1;
